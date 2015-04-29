@@ -1,9 +1,9 @@
 import tweepy
 import csv
-auth = tweepy.auth.OAuthHandler('q1PEJokzTBYsmzTWyX2lXpL7F',
-               'NSzHIhtWCDHBFHEYCY0iNvblsnkE48Zw0x3D0CE0myK9qUGLAY')
-auth.set_access_token('1072932674-C3xwAXsSUdZAGIVmMLiGh7wvfXQ5Ilii92JXuCt',
-               'w4IoFPs9GlGPcYFHtTtGh6kDrGPjd8lF8XXRhAUHxUr6Q')
+auth = tweepy.auth.OAuthHandler(' INSERT TWITTER OAUTH KEY HERE ')
+auth.set_access_token(' INSERT TWITTER ACCESS TOKEN HERE ',
+               ' INSERT TWITTER ACCESS TOKEN HERE ')
+
 
 api = tweepy.API(auth)
 query="somadefcon"
